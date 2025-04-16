@@ -1,0 +1,26 @@
+.image-container {
+  // display: flex;
+  // flex-direction: column;
+  height: 400vh; /* 4 fois la hauteur de la fenêtre */
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  object-fit: cover;
+  margin-bottom: -275px;
+}
+
+.video-container-alone {
+  width: 100%;
+  max-width: 1864px;
+  margin: 0 auto;
+}
+
+.video-container-alone video {
+  width: 100%;
+  height: auto;
+  margin-bottom: -375px;
+}

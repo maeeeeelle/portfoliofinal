@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+  // max-width: 100%;
+}
+
+@keyframes changeFont {
+  0% {
+    background-image: url(../image/font1.png);
+    background-repeat: no-repeat;
+  }
+  10% {
+    background-image: url(../image/font2.png);
+    background-repeat: no-repeat;
+  }
+  20% {
+    background-image: url(../image/font3.png);
+    background-repeat: no-repeat;
+  }
+  30% {
+    background-image: url(../image/font4.png);
+    background-repeat: no-repeat;
+  }
+  40% {
+    background-image: url(../image/font5.png);
+    background-repeat: no-repeat;
+  }
+  50% {
+    background-image: url(../image/font6.png);
+    background-repeat: no-repeat;
+  }
+  60% {
+    background-image: url(../image/font7.png);
+    background-repeat: no-repeat;
+  }
+  70% {
+    background-image: url(../image/font8.png);
+    background-repeat: no-repeat;
+  }
+  80% {
+    background-image: url(../image/font9.png);
+    background-repeat: no-repeat;
+  }
+  90% {
+    background-image: url(../image/font10.png);
+    background-repeat: no-repeat;
+  }
+  100% {
+    background-image: url(../image/font1.png);
+    background-repeat: no-repeat;
+  }
+}
+
+// .row + .row {
+//   margin-top: 16px;
+// }
+
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(86, 61, 124, 0.15);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+// }
+h1 {
+  font-family: "Mystery Quest";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 66px;
+  color: var(--blue);
+}
+
+h2 {
+  font-family: Inter;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+h3 {
+  font-family: ".New York";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 568;
+  line-height: normal;
+}

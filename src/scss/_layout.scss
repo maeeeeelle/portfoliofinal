@@ -1,0 +1,52 @@
+.l-about {
+  background-color: var(--dark-purple);
+  padding-top: 300px;
+}
+
+.l-spectre {
+  background: url(../image/toile.png) lightgray 50% / cover no-repeat;
+  padding: 233px 0px 117px 0px;
+}
+
+.l-thank {
+  background-color: var(--dark-purple);
+  margin-top: 750px;
+}
+
+.l-header {
+  background: var(--dark-purple);
+  position: fixed;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  background: #d1cdff;
+  backdrop-filter: blur(2px);
+  mix-blend-mode: difference;
+  // backdrop-filter: blur(4px);
+  // mix-blend-mode: difference;
+}
+
+.l-header video {
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.l-all {
+  mix-blend-mode: difference;
+}
+
+.l-footer {
+  padding: 51px;
+  background-color: var(--green-purple);
+}
+.l-project {
+  background-color: var(--dark-purple);
+  margin: 50px;
+  padding: 52px 72px 70px 72px;
+}

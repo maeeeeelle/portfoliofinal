@@ -1,0 +1,44 @@
+@media (min-width: 1200px) {
+  video {
+    width: 113px;
+  }
+}
+
+// @media (min-width: 1200px) {
+//   .header-all h3 {
+//     font-size: 26px;
+//   }
+// }
+
+.header-navigation {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.header-navigation h3:hover {
+  text-decoration: underline;
+  transform: scale(1.04) translateY(-2px);
+}
+
+.header-all {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 70px 72px 70px 72px;
+}
+.header-navigation h3 {
+  color: var(--pink);
+  transition: all 0.5s ease-in-out;
+}
+.header-navigation h2 {
+  color: #268f33;
+}
+
+.header-spiral {
+  transition: transform 0.5s;
+}
+.header-spiral:hover {
+  transform: rotate(-500deg) scale(1.2);
+}

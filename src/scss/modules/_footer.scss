@@ -1,0 +1,20 @@
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.footer-icon {
+  display: flex;
+  gap: 31px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 151px;
+  color: var(--purple);
+}
