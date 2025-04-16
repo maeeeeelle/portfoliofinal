@@ -13,7 +13,16 @@
   margin-bottom: 116px;
 }
 
-@media (min) .about-title {
+@media (min-width: 1200px) {
+  .about-title {
+    width: 816px;
+    display: flex;
+    justify-items: center;
+    margin-left: 50px;
+  }
+}
+
+.about-title {
   position: relative;
   margin-bottom: 60px;
   margin-top: -60px;

@@ -1,38 +1,62 @@
-<div class="project-pop">
-  <div class="l-project">
-    <div class="project-cross">
-      <img src="image/cross.png" alt="X" />
-    </div>
-    <div class="project-info">
-      <div class="col-8">
-        <!-- <div class="project-box">
-          <img class="project-art" src="{{ img }}" alt="images" />
-        </div> -->
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>projet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mystery+Quest&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="project-pop">
+      <div class="l-project">
+        <div class="project-cross">
+          <a href="index.html"> <img src="image/cross.png" alt="X" /></a>
+        </div>
+        <div class="project-info">
+          <div class="col-8">
+            <div class="project-box">
+              <video autoplay loop muted playsinline>
+                <source
+                  src="../src/video/9piques.mp4"
+                  controls
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </div>
 
-      <div class="col-3 project-detail">
-        <h1>9 Piques</h1>
-        <h3>
-          03.05.2023 <br />
-          Vidéo <br />
-          création digitale<br />
-          volume
-        </h3>
+          <div class="col-3 project-detail">
+            <h1>9 Piques</h1>
+            <h3>
+              03.05.2023 <br />
+              Vidéo <br />
+              création digitale<br />
+              volume
+            </h3>
+          </div>
+        </div>
+        <div class="about-text">
+          <h2>Description</h2>
+          <h3>
+            J’aime créer des images qui bougent, qui troublent, qui intriguent.
+            Entre photographie, dessin, montage et motion design, mon travail
+            explore les formes, les contrastes et le mouvement. J’expérimente,
+            je joue avec les textures, les insectes et les couleurs, cherchant
+            toujours à capter une émotion ou un instant suspendu.
+          </h3>
+        </div>
+        <div class="project-skip">
+          <h3>Dernier projet</h3>
+          <h3>Prochain projet</h3>
+        </div>
       </div>
     </div>
-    <div class="about-text">
-      <h2>Description</h2>
-      <h3>
-        J’aime créer des images qui bougent, qui troublent, qui intriguent.
-        Entre photographie, dessin, montage et motion design, mon travail
-        explore les formes, les contrastes et le mouvement. J’expérimente, je
-        joue avec les textures, les insectes et les couleurs, cherchant toujours
-        à capter une émotion ou un instant suspendu.
-      </h3>
-    </div>
-    <div class="project-skip">
-      <h3>Dernier projet</h3>
-      <h3>Prochain projet</h3>
-    </div>
-  </div>
-</div>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
